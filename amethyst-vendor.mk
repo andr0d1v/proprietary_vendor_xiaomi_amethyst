@@ -1029,11 +1029,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.aidlbgservice-V1.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.xiaomi.hardware.aidlbgservice-V1.0-java-permission.xml \
     vendor/xiaomi/amethyst/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/xiaomi/amethyst/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
-    vendor/xiaomi/amethyst/proprietary/system_ext/framework/com.nxp.nfc.jar.fsv_meta:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.nxp.nfc.jar.fsv_meta \
-    vendor/xiaomi/amethyst/proprietary/system_ext/framework/com.xiaomi.hardware.camera.companion-V1.jar.fsv_meta:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.xiaomi.hardware.camera.companion-V1.jar.fsv_meta \
-    vendor/xiaomi/amethyst/proprietary/system_ext/framework/vendor.xiaomi.hardware.aidl.intentaware-V1-java.jar.fsv_meta:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.xiaomi.hardware.aidl.intentaware-V1-java.jar.fsv_meta \
-    vendor/xiaomi/amethyst/proprietary/system_ext/framework/vendor.xiaomi.hardware.aidlbgservice-V1-java.jar.fsv_meta:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.xiaomi.hardware.aidlbgservice-V1-java.jar.fsv_meta \
-    vendor/xiaomi/amethyst/proprietary/system_ext/framework/vendor.xiaomi.hardware.bgservice-V1.0-java.jar.fsv_meta:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.xiaomi.hardware.bgservice-V1.0-java.jar.fsv_meta \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd \
@@ -2843,7 +2838,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.aidlbgservice-service.xml \
     vendor.xiaomi.hardware.displayfeature_aidl-service.xml \
     vendor.xiaomi.modem.qms.xml \
-    manifest_nfc_ese.xml \
     manifest_vendor.xiaomi.hardware.aidl.mtdservice.xml \
     manifest_vendor.xiaomi.hardware.aidl.tidaservice.xml \
     manifest_vendor.xiaomi.hardware.mfidoca.xml \
