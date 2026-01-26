@@ -1046,7 +1046,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__3.1.1.0_0.0__3.2.0_0.0__eai_2.7_enpu_v3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__3.1.1.0_0.0__3.2.0_0.0__eai_2.7_enpu_v3.pmd \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.6.5_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.6.5_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd \
@@ -1704,11 +1703,12 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
+    libITT \
+    libMiPhotoFilter \
     libMiVDR \
     libOISHighFPS \
     libOpenCL \
     libOpenCL_adreno \
-    libPeripheralStateUtils \
     libQSEEComAPI \
     libQcelp13SwCodec \
     libQnnChrometraceProfilingReader \
@@ -1959,8 +1959,11 @@ PRODUCT_PACKAGES += \
     libmicamera_aidl_utils \
     libmicamera_hal_core \
     libmicamera_hal_policy \
+    libmilut \
+    libminikin.xiaomi \
     libminkdescriptor \
     libminksocket_vendor \
+    libmips \
     libmirf \
     libmis6 \
     libmisfpsop \
@@ -1968,8 +1971,8 @@ PRODUCT_PACKAGES += \
     libmisops \
     libmisoundfx_ext \
     libmisoundsa \
-    libmisoundsa_fx \
     libmispowerop \
+    libmisr \
     libmm-hdcpmgr \
     libmmcamera_bestats \
     libmmcamera_cac \
@@ -1990,19 +1993,6 @@ PRODUCT_PACKAGES += \
     libnicm_recovery \
     libnicm_utils \
     libnicm_vh \
-    libnspdependency \
-    libnspdescriptorhandler \
-    libnspdiag \
-    libnspextensionloader \
-    libnspframework \
-    libnspframeworkcoreutility \
-    libnspgraphing \
-    libnspipc \
-    libnsposal \
-    libnspresource \
-    libnspscheduler \
-    libnspsession \
-    libnsptransaction \
     liboemcrypto \
     libofflinedebugdata \
     liboffscreenpoweroptfeature \
@@ -2030,7 +2020,6 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-lite-21.7 \
     libpsmoptfeature \
     libq-perflog \
-    libqape_oem_ext \
     libqapesdk \
     libqc2audio_base \
     libqc2audio_basecodec \
@@ -2142,6 +2131,7 @@ PRODUCT_PACKAGES += \
     libsdsprpc \
     libsensorcal \
     libsensorslog \
+    libshadowhook \
     libshsc \
     libsi \
     libsilkyscrolls \
@@ -2510,6 +2500,7 @@ PRODUCT_PACKAGES += \
     lib-imsvtutils \
     libbeluga \
     libdiag_system \
+    libfcmintf \
     libimscamera_jni \
     libimsmedia_jni \
     libmmosal \
@@ -2533,6 +2524,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.aidl.intentaware-V1-ndk \
     vendor.xiaomi.hardware.aidlbgservice-V1-ndk \
     vendor.xiaomi.hardware.bgservice@1.0 \
+    vendor.xiaomi.hardware.framecapturemanager-V1-ndk \
     android.hardware.gnss-aidl-impl-qti \
     com.qti.actuator.amethyst_aac_s5khp3_gt9764ber_wide_ii_actuator \
     com.qti.actuator.amethyst_ofilm_ovx8000_gt9764ber_wide_actuator \
@@ -2623,17 +2615,14 @@ PRODUCT_PACKAGES += \
     com.xiaomi.zsl.nightmotionzslbanding \
     com.xiaomi.zsl.sr \
     com.xiaomi.camdfx \
-    com.xiaomi.drivermqs \
     consumerir.qcom \
     displayfeature.default \
     fingerprint.fpc_fod.default \
     fingerprint.goodix_fod.default \
     libAncHumanVideoBokehV4 \
     libFaceUnlock \
-    libITT \
     libIntelligentFocus \
     libMiDispDevManager \
-    libMiPhotoFilter \
     libMiStereoFactoryCalibAnalyzeBin_qual \
     libTrueSight \
     libadaptivehdr \
@@ -2663,13 +2652,10 @@ PRODUCT_PACKAGES += \
     libarcsoft_turbo_sr_detection \
     libaudioroute_ext \
     libauthsecret_empty-nxp \
-    libbarrage \
     libcamera_scene \
     libcameraheif \
-    libcaminfosynchronization \
     libclient2slpi.notifier \
     libcolortempmode \
-    libcom.xiaomi.intentaware \
     libcrussp \
     libdisplaycount \
     libdisplaylog \
@@ -2677,10 +2663,8 @@ PRODUCT_PACKAGES += \
     libdlrmsc \
     libellv \
     libeyecare \
-    libfcmintf \
     libflatmode \
     libfpsmonitor \
-    libframecapturemanager \
     libgf_hal \
     libheichal \
     libhistprocess \
@@ -2706,7 +2690,6 @@ PRODUCT_PACKAGES += \
     libmialgo_utils \
     libmialgo_video_seg_depth \
     libmieventnodewatch \
-    libminikin.xiaomi \
     libmiocr \
     libmiphone_capture_bokeh \
     libmiphone_capture_depth \
@@ -2725,7 +2708,6 @@ PRODUCT_PACKAGES += \
     librfs_warp \
     librhytheyecare \
     libsdr2hdr \
-    libshadowhook \
     libsre \
     libsupermoon \
     libtensorflowlite_touch_c \
@@ -2737,7 +2719,6 @@ PRODUCT_PACKAGES += \
     libtouchreport_alg_goodix \
     libtouchreport_hal \
     libtruetone \
-    libvega_common \
     libvideomode \
     libvoipspacespeech \
     libwa_widelens_undistort \
@@ -2748,7 +2729,6 @@ PRODUCT_PACKAGES += \
     sensors.touch.detect \
     sensors.ultrasoundproximity \
     vendor.qti.gnss-service \
-    vendor.xiaomi.hardware.framecapturemanager-V1-ndk \
     vendor.xiaomi.hardware.mediaeventgatherservice-V1-ndk \
     capi_elus_rx \
     capi_elus_tx \
@@ -2766,7 +2746,6 @@ PRODUCT_PACKAGES += \
     TrustZoneAccessService \
     SoterService \
     uimgbaservice \
-    ImsRcsService \
     QtiTelephonyService \
     QtiTelephony \
     ims \
@@ -2864,7 +2843,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.aidlbgservice-service.xml \
     vendor.xiaomi.hardware.displayfeature_aidl-service.xml \
     vendor.xiaomi.modem.qms.xml \
-    android.hardware.gnss-aidl-service-qti.xml \
     manifest_nfc_ese.xml \
     manifest_vendor.xiaomi.hardware.aidl.mtdservice.xml \
     manifest_vendor.xiaomi.hardware.aidl.tidaservice.xml \
@@ -2957,7 +2935,6 @@ PRODUCT_PACKAGES += \
     pd-mapper \
     pm-proxy \
     pm-service \
-    pm_ioctl_app \
     port-bridge \
     power_off_alarm \
     poweropt-service \
