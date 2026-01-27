@@ -2658,6 +2658,7 @@ PRODUCT_PACKAGES += \
     libarcsoft_turbo_sr_detection \
     libaudioroute_ext \
     libauthsecret_empty-nxp \
+    libawcal \
     libcamera_scene \
     libcameraheif \
     libclient2slpi.notifier \
