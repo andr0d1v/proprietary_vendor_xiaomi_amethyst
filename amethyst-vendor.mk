@@ -1654,7 +1654,6 @@ PRODUCT_PACKAGES += \
     libEseUtils \
     libqtigatekeeper \
     sensors.dynamic_sensor_hal \
-    sound_trigger.primary.volcano \
     vendor.qti.hardware.alarm-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
@@ -1759,11 +1758,16 @@ PRODUCT_PACKAGES += \
     libadsp_default_listener \
     libadsprpc \
     libagm \
+    libagmmixer \
     libaodoptfeature \
     libapengine \
     libappclassifier \
+    libar-acdb \
+    libar-gpr \
+    libar-gsl \
     libar-pal \
     libarmemlog \
+    libats \
     libaudio_log_utils \
     libaudiocloudctrl \
     libbacklight-calib \
@@ -1831,6 +1835,7 @@ PRODUCT_PACKAGES += \
     libcommonchiutils \
     libconfigdb \
     libcpion \
+    libcustomva_intf \
     libcv_common \
     libdapparamstorage \
     libdataitems \
@@ -1889,6 +1894,7 @@ PRODUCT_PACKAGES += \
     libhdrdynamicootf \
     libhdrvivid \
     libhistogram \
+    libhotword_intf \
     libidl \
     libintervmipc \
     libiqdbgmgr \
@@ -1933,6 +1939,8 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
+    liblx-ar_util \
+    liblx-osal \
     libmasc \
     libmcs \
     libmdmdetect \
@@ -1998,6 +2006,7 @@ PRODUCT_PACKAGES += \
     libops \
     libos \
     libpal_net_if \
+    libpalclient \
     libpasrutils \
     libpdmapper \
     libpdnotifier \
@@ -2020,6 +2029,7 @@ PRODUCT_PACKAGES += \
     libqc2audio_basecodec \
     libqc2audio_core \
     libqc2audio_hooks \
+    libqc2audio_hwaudiocodec \
     libqc2audio_platform \
     libqc2audio_swaudiocodec \
     libqc2audio_utils \
@@ -2289,6 +2299,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.diaghal@1.0-vendor \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.gnss-V6-ndk \
+    vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.ListenSoundModel@1.0-impl \
     vendor.qti.hardware.ListenSoundModel@1.0 \
     vendor.qti.hardware.alarm-V1-ndk \
