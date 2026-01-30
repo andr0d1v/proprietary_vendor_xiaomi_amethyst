@@ -2171,7 +2171,7 @@ PRODUCT_PACKAGES += \
     libsysmon_cdsp_skel \
     libsystem_health_mon \
     libtaautoload \
-    libtensorflowlite_c \
+    libtensorflowlite_c_vendor \
     libtestutils \
     libthermalclient \
     libthreadutils \
@@ -2472,28 +2472,28 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.modem.qms@1.0 \
     vendor.xiaomi.sensor.citsensorservice-V1-ndk \
     xiaomi.system.hypsys.common-V1-ndk \
-    chre_qsh_shim \
-    libCalculator_skel \
-    libQnnHtpV73 \
-    libQnnHtpV73QemuDriver \
-    libQnnHtpV73Skel \
-    libQnnHtpV75 \
-    libQnnHtpV75Skel \
-    libQnnSaver \
-    libQnnSystem \
-    libSnpeHtpV73Skel \
-    libSnpeHtpV75Skel \
-    libadsp_jpege_skel \
-    libarc_htp_driver_skel \
-    libbitml_nsp_skel \
-    libdsp_streamer_binning \
-    libhme_dsp_skel \
-    libmctfengine_skel \
-    libmialgo_basic_cdsp_skel \
-    libmialgo_rfs_cdsp_skel \
-    libmlawbpostproc_dsp_skel \
-    nearby.napp_header \
-    nearby \
+    vendor_lib_rfsa_adsp_chre_qsh_shim_so \
+    vendor_lib_rfsa_adsp_libCalculator_skel_so \
+    vendor_lib_rfsa_adsp_libQnnHtpV73_so \
+    vendor_lib_rfsa_adsp_libQnnHtpV73QemuDriver_so \
+    vendor_lib_rfsa_adsp_libQnnHtpV73Skel_so \
+    vendor_lib_rfsa_adsp_libQnnHtpV75_so \
+    vendor_lib_rfsa_adsp_libQnnHtpV75Skel_so \
+    vendor_lib_rfsa_adsp_libQnnSaver_so \
+    vendor_lib_rfsa_adsp_libQnnSystem_so \
+    vendor_lib_rfsa_adsp_libSnpeHtpV73Skel_so \
+    vendor_lib_rfsa_adsp_libSnpeHtpV75Skel_so \
+    vendor_lib_rfsa_adsp_libadsp_jpege_skel_so \
+    vendor_lib_rfsa_adsp_libarc_htp_driver_skel_so \
+    vendor_lib_rfsa_adsp_libbitml_nsp_skel_so \
+    vendor_lib_rfsa_adsp_libdsp_streamer_binning_so \
+    vendor_lib_rfsa_adsp_libhme_dsp_skel_so \
+    vendor_lib_rfsa_adsp_libmctfengine_skel_so \
+    vendor_lib_rfsa_adsp_libmialgo_basic_cdsp_skel_so \
+    vendor_lib_rfsa_adsp_libmialgo_rfs_cdsp_skel_so \
+    vendor_lib_rfsa_adsp_libmlawbpostproc_dsp_skel_so \
+    vendor_lib_rfsa_adsp_nearby_napp_header \
+    vendor_lib_rfsa_adsp_nearby_so \
     vendor.qti.hardware.radio.internal.deviceinfo@1.0 \
     lib-imsvideocodec \
     lib-imsvt \
@@ -2732,14 +2732,14 @@ PRODUCT_PACKAGES += \
     sensors.ultrasoundproximity \
     vendor.qti.gnss-service \
     vendor.xiaomi.hardware.mediaeventgatherservice-V1-ndk \
-    capi_elus_rx \
-    capi_elus_tx \
-    libmialgo_ai_process_cdsp_skel \
-    libmialgo_bokeh_depth_cdsp_skel \
-    libmialgo_bokeh_effect_cdsp_skel \
-    libmialgo_ell_cdsp_skel \
-    libmialgo_mc_bokeh_cdsp_skel \
-    libmialgo_tracker_cdsp_skel \
+    odm_lib_rfsa_adsp_capi_elus_rx_so \
+    odm_lib_rfsa_adsp_capi_elus_tx_so \
+    odm_lib_rfsa_adsp_libmialgo_ai_process_cdsp_skel_so \
+    odm_lib_rfsa_adsp_libmialgo_bokeh_depth_cdsp_skel_so \
+    odm_lib_rfsa_adsp_libmialgo_bokeh_effect_cdsp_skel_so \
+    odm_lib_rfsa_adsp_libmialgo_ell_cdsp_skel_so \
+    odm_lib_rfsa_adsp_libmialgo_mc_bokeh_cdsp_skel_so \
+    odm_lib_rfsa_adsp_libmialgo_tracker_cdsp_skel_so \
     com.google.android.widevine.nonupdatable \
     CACertService \
     CneApp \
