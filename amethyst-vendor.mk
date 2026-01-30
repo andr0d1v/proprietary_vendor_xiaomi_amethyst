@@ -1076,10 +1076,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/acdbdata/volcano_qrd_wsa883x/QRD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/volcano_qrd_wsa883x/QRD_acdb_cal.acdb \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/acdbdata/volcano_qrd_wsa883x/QRD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/volcano_qrd_wsa883x/QRD_workspaceFileXml.qwsp \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/audio/sku_volcano/adsp_sleep_monitor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_volcano/adsp_sleep_monitor.conf \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/audio/sku_volcano/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_volcano/audio_effects.conf \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/audio/sku_volcano/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_volcano/audio_effects.xml \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/audio/sku_volcano/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_volcano/audio_policy_configuration.xml \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/audio/sku_volcano/mixer_paths_volcano_cdp_wsa883x_wcd939x.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_volcano/mixer_paths_volcano_cdp_wsa883x_wcd939x.xml \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/audio/sku_volcano/mixer_paths_volcano_cdp_wsa883x_wcd939x_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_volcano/mixer_paths_volcano_cdp_wsa883x_wcd939x_sku1.xml \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/audio/sku_volcano/mixer_paths_volcano_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_volcano/mixer_paths_volcano_mtp.xml \
@@ -1096,7 +1092,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/audio/sku_volcano/resourcemanager_volcano_mtp_wsa883x_wcd939x_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_volcano/resourcemanager_volcano_mtp_wsa883x_wcd939x_sku1.xml \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/audio/sku_volcano/resourcemanager_volcano_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_volcano/resourcemanager_volcano_qrd.xml \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/audio/sku_volcano/resourcemanager_volcano_qrd_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_volcano/resourcemanager_volcano_qrd_sku1.xml \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/audio/sku_volcano_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_volcano_qssi/audio_policy_configuration.xml \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/audio_cloud_control_white_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_cloud_control_white_list.xml \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/audio_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio_diag.cfg \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
@@ -2787,7 +2782,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.2-java \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
     vendor.xiaomi.hardware.aidl.intentaware-V1-java \
-    vendor.xiaomi.hardware.aidlbgservice-V1-java \
     vendor.xiaomi.hardware.bgservice-V1.0-java \
     ImsRtpService-aidl.xml \
     android.hardware.drm-service.xml \
