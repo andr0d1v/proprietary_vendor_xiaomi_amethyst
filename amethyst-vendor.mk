@@ -2015,8 +2015,6 @@ PRODUCT_PACKAGES += \
     libprefapps \
     libprekill \
     libprocomp \
-    libprotobuf-cpp-full-21.7 \
-    libprotobuf-cpp-lite-21.7 \
     libpsmoptfeature \
     libq-perflog \
     libqapesdk \
@@ -2283,8 +2281,6 @@ PRODUCT_PACKAGES += \
     vendor.libdpmtcm \
     vendor.libmwqemiptablemgr \
     vendor.nxp.hardware.nfc@2.0 \
-    vendor.nxp.nxpese@1.0-vendor \
-    vendor.nxp.nxpnfc_aidl-V1-ndk-vendor \
     vendor.qti.ImsRtpService-V1-ndk-vendor \
     vendor.qti.ImsRtpService-aidl-Impl \
     vendor.qti.data.factoryservice-V1-ndk \
