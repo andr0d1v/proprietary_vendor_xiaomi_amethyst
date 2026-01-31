@@ -7,3 +7,4 @@ service citsensorservice  /odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl
     user system
     group system input
     capabilities SYS_NICE
+	disabled
