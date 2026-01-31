@@ -7,6 +7,12 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/odm/etc/MESubway_prebuilt.db:$(TARGET_COPY_OUT_ODM)/etc/MESubway_prebuilt.db \
+    vendor/xiaomi/amethyst/proprietary/odm/etc/acdbdata/Mise/MISE_HD_model.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Mise/MISE_HD_model.eai \
+    vendor/xiaomi/amethyst/proprietary/odm/etc/acdbdata/Mise/MISE_NS_model.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Mise/MISE_NS_model.eai \
+    vendor/xiaomi/amethyst/proprietary/odm/etc/acdbdata/Mise/Mise_acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Mise/Mise_acdb_cal.acdb \
+    vendor/xiaomi/amethyst/proprietary/odm/etc/acdbdata/Mise/Mise_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Mise/Mise_workspaceFileXml.qwsp \
+    vendor/xiaomi/amethyst/proprietary/odm/etc/acdbdata/Mise/foursemi/Mise_acdb_cal_fs.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Mise/foursemi/Mise_acdb_cal_fs.acdb \
+    vendor/xiaomi/amethyst/proprietary/odm/etc/acdbdata/Mise/foursemi/Mise_workspaceFileXml_fs.qwsp:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Mise/foursemi/Mise_workspaceFileXml_fs.qwsp \
     vendor/xiaomi/amethyst/proprietary/odm/etc/acdbdata/volcano_mtp/MISE_NS_model.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/volcano_mtp/MISE_NS_model.eai \
     vendor/xiaomi/amethyst/proprietary/odm/etc/acdbdata/volcano_mtp/Mise/MISE_HD_model.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/volcano_mtp/Mise/MISE_HD_model.eai \
     vendor/xiaomi/amethyst/proprietary/odm/etc/acdbdata/volcano_mtp/Mise/Mise_acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/volcano_mtp/Mise/Mise_acdb_cal.acdb \
